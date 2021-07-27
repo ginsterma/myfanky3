@@ -11,6 +11,7 @@
             <Grid Background="#FF0069C0" Height="10"/>
             <Grid Margin="5">
                 <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+                   <!-- 
                     <TextBlock Text="My Fanky Lernapp" VerticalAlignment="Top" FontSize="20" FontFamily="Champagne &amp; Limousines" Margin="20,4,20,0"/>
                     <Button Width="30" Height="30" Background="{x:Null}" BorderBrush="{x:Null}" Padding="0" Foreground="Gray">
                         <materialDesign:PackIcon Kind="FacebookBox"/>
@@ -20,7 +21,7 @@
                     </Button>
                     <Button Width="30" Height="30" Background="{x:Null}" BorderBrush="{x:Null}" Padding="0" Foreground="Gray">
                         <materialDesign:PackIcon Kind="GithubBox"/>
-                    </Button>
+                    </Button> -->
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="10 0">
                     <Button Width="30" Height="30" Background="{x:Null}" BorderBrush="{x:Null}" Padding="0" Foreground="Gray">
@@ -51,9 +52,9 @@
                         <TextBlock Text="Home" FontSize="17" VerticalAlignment="Center" Margin="20 0"/>
                     </StackPanel>
                 </ListViewItem>
-                <ListViewItem Height="60">
+                <ListViewItem Height="60" Selected="ListViewItem_Selected_1">
                     <StackPanel Orientation="Horizontal">
-                        <materialDesign:PackIcon Kind="Glasses" Width="30" Height="30" VerticalAlignment="Center" Margin="5"/>
+                        <materialDesign:PackIcon Kind="School" Width="30" Height="30" VerticalAlignment="Center" Margin="5"/>
                         <TextBlock Text="Lernen" FontSize="17" VerticalAlignment="Center" Margin="20 0"/>
                     </StackPanel>
                 </ListViewItem>
@@ -69,7 +70,7 @@
                         <TextBlock Text="Stapel NEU" FontSize="17" VerticalAlignment="Center" Margin="20 0"/>
                     </StackPanel>
                 </ListViewItem>
-                <ListViewItem Height="60" Selected="ListViewItem_Selected">
+                <ListViewItem Height="60" Selected="ListViewItem_Selected_1">
                     <StackPanel Orientation="Horizontal">
                         <materialDesign:PackIcon Kind="Settings" Width="30" Height="30" VerticalAlignment="Center" Margin="5"/>
                         <TextBlock Text="Einstellungen" FontSize="17" VerticalAlignment="Center" Margin="20 0"/>

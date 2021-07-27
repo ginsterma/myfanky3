@@ -23,9 +23,9 @@
 
                     <StackPanel Width="200" Margin="0,0,-59,0">
                         <TextBlock Margin="10" FontFamily="Arial" FontSize="12" Text="FRAGE" Foreground="#FFC00000"/>
-                        <TextBlock FontSize="30" Margin="-24,5,-64,5" TextWrapping="Wrap" FontFamily="Arial" Height="65"><Run Text="Was heißt DHCP?"/></TextBlock>
+                        <TextBlock x:Name="txtbl" FontSize="30" Margin="-24,5,-64,5" TextWrapping="Wrap" FontFamily="Arial" Height="65"><Run Text=""/></TextBlock>
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                            <Button Width="229" Content="Antwort zeigen" FontFamily="Champagne &amp; Limousines" Margin="10"/>
+                            <Button Width="229" Content="Antwort zeigen" FontFamily="Champagne &amp; Limousines" Margin="10" Click="Button_Click"/>
                         </StackPanel>
                     </StackPanel>
                 </Grid>

@@ -20,10 +20,7 @@ namespace Pizzaria1
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
-        {
-            InitializeComponent();
-        }
+      
 
         private void ButtonFechar_Click(object sender, RoutedEventArgs e)
         {
@@ -61,9 +58,10 @@ namespace Pizzaria1
             GridCursor.Margin = new Thickness(0, (100 + (60 * index)), 0, 0);
         }
 
-        private void ListViewItem_Selected(object sender, RoutedEventArgs e)
+        private void ListViewItem_Selected_1(object sender, RoutedEventArgs e)
         {
 
         }
+  
     }
 }
