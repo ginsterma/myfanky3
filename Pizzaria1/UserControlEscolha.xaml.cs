@@ -25,7 +25,7 @@ namespace Pizzaria1
         public UserControlEscolha()
         {
             InitializeComponent();
-            questions[0] = new Question("Welche Farbe hat die Sonne", "gelb");
+            questions[0] = new Question("Was heißt DHCP?", "Dynamtic Host Connect Protocol");
             questions[1] = new Question("Welche Farbe hat der Himmel", "blau");
             questions[2] = new Question("Welche Farbe hat das Gras", "grün");
 
